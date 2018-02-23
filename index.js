@@ -15,7 +15,10 @@ function currentLine(line){
   }
     tmpStr=tmpStr+"The line is currently: "
     for(let i=0;i<line.length;i++){
-      tmpStr+=(i+1)+". "+line[i]+", "
+      tmpStr+=(i+1)+". "+line[i]
+      if(i<line.length-1){
+        tmpStr+=", "
+      }
     }
   return tmpStr
 }
