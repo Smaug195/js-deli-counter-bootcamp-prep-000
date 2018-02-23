@@ -1,6 +1,6 @@
 function takeANumber(line,nm){
   line.push(nm);
-  return 'Welcome, '+nm+" You are number " + line.length + " in line."
+  return 'Welcome, '+nm+". You are number " + line.length + " in line."
 }
 function nowServing(line){
   if(line.length===0){
